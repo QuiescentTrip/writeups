@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "14feb70f5cffe5c5",
@@ -148,6 +149,13 @@
   },
   "active": "b1903867c44cecfb",
   "lastOpenFiles": [
+    "Pasted image 20231106194310.png",
+    "Pasted image 20231106193848.png",
+    "Pasted image 20231106192921.png",
+    "Pasted image 20231106192538.png",
+    "Pasted image 20231106192314.png",
+    "Pasted image 20231106174214.png",
+    "Pasted image 20231106174027.png",
     "New Text Document.txt",
     "Untitled.canvas",
     "BOX/SAU/SAU HTB writeup.md",
