@@ -59,11 +59,11 @@ nmap -p- -sV -sC 10.10.11.224
 
 Accessing both the 80 port and 8338 port gives us no response on Firefox.
 <b>However</b> the :55555 port gives us something:
-![[Pasted image 20231106174027.png]]
+![[./pictures/website.png]]
 
 A request basket webpage. Googling a bit around allows us to find that version 1.2.1 and under is vulnerable to a SSFR attack. Checking the version on the webpage to see if we have that version and...
 
-![[Pasted image 20231106174214.png]]
+![[./pictures/baskets-version.png]]
 ### <b>bingo</b>
 
 # SSRF with **[CVE-2023-27163](https://github.com/entr0pie/CVE-2023-27163)**:
@@ -80,15 +80,15 @@ and
 ```
 
 Going to the new basket we have created redirects us to those ports where this strange website is hosted:
-![[Pasted image 20231106192314.png]]
+![[./pictures/Maltrail-website.png]]
 
 This really gives us nothing. We see that there is a log in button, however it's not clickable. Nor does it have a link that redirects in the html. HOWEVER! On the bottom of the page we see something interesting once more:
 
-![[Pasted image 20231106192538.png]]
+![[./pictures/Maltrail-version.png]]
 
 Googling "Maltrail (v0.53)" led me to this https://github.com/spookier/Maltrail-v0.53-Exploit GitHub page. So as the github page describes. There is a RCE (Remote Code Execution) vulunrability in the login page for Maltrail version 0.53. This must be the "Log In" button we saw previously. So by pure chance I wanted to see if there is a directory called login and...
 
-![[Pasted image 20231106192921.png]]
+![[./pictures/Maltrail-login.png]]
 
 ### Bingo (again)
 
@@ -108,11 +108,11 @@ This is the main part of the script. The **payload** is a reverse shell that use
 
 Pulling all of this together or running the script and...
 
-![[Pasted image 20231106193848.png]]
+![[./pictures/we're-in.png]]
 ## **We're in**
 
 Navigating to /home/puma we can now cat out the file user.txt and get:
-![[Pasted image 20231106194310.png]]
+![[./pictures/user.txt.png]]
 
 # Privilege escalation with # Systemctl:
 
