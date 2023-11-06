@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "14feb70f5cffe5c5",
@@ -147,15 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1903867c44cecfb",
+  "active": "2ad53ba2f6b63db4",
   "lastOpenFiles": [
-    "Pasted image 20231106194310.png",
-    "Pasted image 20231106193848.png",
-    "Pasted image 20231106192921.png",
-    "Pasted image 20231106192538.png",
-    "Pasted image 20231106192314.png",
-    "Pasted image 20231106174214.png",
-    "Pasted image 20231106174027.png",
+    "BOX/SAU/Pasted image 20231106194310.png",
+    "BOX/SAU/Pasted image 20231106193848.png",
+    "BOX/SAU/Pasted image 20231106192921.png",
+    "BOX/SAU/Pasted image 20231106192538.png",
+    "BOX/SAU/Pasted image 20231106192314.png",
+    "BOX/SAU/Pasted image 20231106174214.png",
+    "BOX/SAU/Pasted image 20231106174027.png",
     "New Text Document.txt",
     "Untitled.canvas",
     "BOX/SAU/SAU HTB writeup.md",
