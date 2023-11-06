@@ -59,7 +59,7 @@ nmap -p- -sV -sC 10.10.11.224
 
 Accessing both the 80 port and 8338 port gives us no response on Firefox.
 <b>However</b> the :55555 port gives us something:
-![[./pictures/website.png]]
+![[pictures/website.png]]
 
 A request basket webpage. Googling a bit around allows us to find that version 1.2.1 and under is vulnerable to a SSFR attack. Checking the version on the webpage to see if we have that version and...
 
