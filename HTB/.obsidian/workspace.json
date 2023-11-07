@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOX/Codify/Codify - HTB.md",
+                "file": "BOX/Pilgrimage/Pilgrimage - HTB.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "14feb70f5cffe5c5",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BOX/Codify/Codify - HTB.md",
+                "file": "BOX/Pilgrimage/Pilgrimage - HTB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BOX/Codify/Codify - HTB.md",
+                "file": "BOX/Pilgrimage/Pilgrimage - HTB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BOX/Codify/Codify - HTB.md"
+                "file": "BOX/Pilgrimage/Pilgrimage - HTB.md"
               }
             }
           }
@@ -146,14 +147,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ad53ba2f6b63db4",
+  "active": "b1903867c44cecfb",
   "lastOpenFiles": [
+    "BOX/Codify/Codify - HTB.md",
+    "BOX/Pilgrimage/Pilgrimage - HTB.md",
+    "BOX/Pilgrimage",
     "BOX/Codify/pics",
     "BOX/Codify/pics/Pasted image 20231107015133.png",
     "BOX/Codify/pics/Pasted image 20231107014648.png",
     "BOX/Codify/pics/Pasted image 20231107000126.png",
     "BOX/SAU/SAU writeup.md",
-    "BOX/Codify/Codify - HTB.md",
     "BOX/Codify",
     "BOX/SAU/pictures/website.png",
     "BOX/SAU/pictures/Maltrail-login.png",
