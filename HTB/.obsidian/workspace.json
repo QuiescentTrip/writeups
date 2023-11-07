@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOX/SAU/SAU writeup.md",
+                "file": "BOX/Codify/Codify - HTB.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BOX/SAU/SAU writeup.md",
+                "file": "BOX/Codify/Codify - HTB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BOX/SAU/SAU writeup.md",
+                "file": "BOX/Codify/Codify - HTB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BOX/SAU/SAU writeup.md"
+                "file": "BOX/Codify/Codify - HTB.md"
               }
             }
           }
@@ -146,10 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1903867c44cecfb",
+  "active": "2ad53ba2f6b63db4",
   "lastOpenFiles": [
-    "BOX/SAU/pictures/website.png",
+    "BOX/Codify/pics",
+    "BOX/Codify/pics/Pasted image 20231107015133.png",
+    "BOX/Codify/pics/Pasted image 20231107014648.png",
+    "BOX/Codify/pics/Pasted image 20231107000126.png",
     "BOX/SAU/SAU writeup.md",
+    "BOX/Codify/Codify - HTB.md",
+    "BOX/Codify",
+    "BOX/SAU/pictures/website.png",
     "BOX/SAU/pictures/Maltrail-login.png",
     "BOX/SAU/pictures/user.txt.png",
     "BOX/SAU/pictures/we're-in.png",
