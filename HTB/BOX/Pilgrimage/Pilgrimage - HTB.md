@@ -1,3 +1,8 @@
+---
+type: box
+finished: "false"
+writeup: "false"
+---
 # Notes:
 ### IP: 
 10.10.11.219

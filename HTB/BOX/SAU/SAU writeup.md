@@ -1,3 +1,9 @@
+---
+type: box
+finished: "true"
+writeup: "true"
+---
+
 # Notes:
 
 ### IP:
