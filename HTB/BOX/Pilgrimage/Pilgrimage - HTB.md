@@ -3,12 +3,7 @@ type: box
 finished: "false"
 writeup: "false"
 ---
-# Info:
-### IP: 
-10.10.11.219
-### Difficulty:
-Easy
-
+![pilgrimage](images/Pilgrimage.png)
 # Enumeration
 with the nmap command `nmap -p- -sV -sC 10.10.11.219` we got this result:
 ```
