@@ -42,6 +42,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d5f0c90f5c4298bb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
@@ -173,33 +181,35 @@
   },
   "active": "8a55b66219bbdc29",
   "lastOpenFiles": [
-    "BOX/SAU/SAU writeup.md",
-    "Home.md",
+    "BOX/Pilgrimage/images/root.png",
+    "BOX/Pilgrimage/images/ssh.png",
+    "BOX/Pilgrimage/images/usernames.png",
+    "BOX/Pilgrimage/images/table.png",
     "BOX/Pilgrimage/Pilgrimage - HTB.md",
+    "BOX/Pilgrimage/images/login.png",
+    "BOX/Pilgrimage/images/website.png",
+    "BOX/Pilgrimage/images",
+    "Home.md",
+    "BOX/Zipping/Zipper - HTB.md",
+    "BOX.md",
+    "box.md",
     "BOX/Codify/Codify - HTB.md",
-    "BOX/Analytics/HTB - Analytics.md",
+    "BOX/SAU/SAU - HTB.md",
+    "BOX/Analytics/Analytics - HTB.md",
     "BOX/Analytics/pics",
     "BOX/Analytics/pics/Pasted image 20231107164931.png",
-    "BOX/Zipping/Zipper - HTB.md",
     "adsf.md",
     "BOX/Zipping",
     "BOX/SAU/pictures/baskets-version.png",
     "BOX/SAU/pictures/Maltrail-login.png",
     "BOX/SAU/pictures/Maltrail-version.png",
-    "BOX/Analytics/pics/Analytics.png",
     "BOX/Analytics",
     "BOX/Pilgrimage",
     "BOX/Codify/pics",
-    "BOX/Codify/pics/Pasted image 20231107015133.png",
-    "BOX/Codify/pics/Pasted image 20231107014648.png",
-    "BOX/Codify/pics/Pasted image 20231107000126.png",
     "BOX/Codify",
-    "BOX/SAU/pictures/website.png",
-    "BOX/SAU/pictures/user.txt.png",
     "BOX/SAU/pictures",
     "New Text Document.txt",
     "Untitled.canvas",
-    "BOX/SAU/enum",
-    "BOX/SAU"
+    "BOX/SAU/enum"
   ]
 }

@@ -1,3 +1,7 @@
+---
+type: home
+---
+
 In this project I will try to do writeup on everything I do on hackthebox.com.
 This includes HTB academy.
 
@@ -9,16 +13,22 @@ And "Academy" includes every course I've gone through.
 list 
 from "BOX" where finished = "false"
 ```
-### **Finished:**
-```dataview
-list
-from "BOX" where finished = "true"
-```
 ### Still need to finish writeup:
 ```dataview
 list
 from "BOX" where finished = "true" and writeup = "false"
 ```
+
+### **Finished:**
+```dataview
+list
+from "BOX" where finished = "true"
+```
+# Every file
+```dataview
+Table type
+```
+
 
 
 
