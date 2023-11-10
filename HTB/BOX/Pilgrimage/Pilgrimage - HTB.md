@@ -1,7 +1,7 @@
 ---
 type: box
-finished: "false"
-writeup: "false"
+finished: "true"
+writeup: "true"
 ---
 ![pilgrimage](images/Pilgrimage.png)
 # Enumeration

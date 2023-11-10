@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOX/Pilgrimage/Pilgrimage - HTB.md",
+                "file": "BOX/Zipping/Zipper - HTB.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BOX/Pilgrimage/Pilgrimage - HTB.md",
+                "file": "BOX/Zipping/Zipper - HTB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BOX/Pilgrimage/Pilgrimage - HTB.md",
+                "file": "BOX/Zipping/Zipper - HTB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BOX/Pilgrimage/Pilgrimage - HTB.md"
+                "file": "BOX/Zipping/Zipper - HTB.md"
               }
             }
           }
@@ -179,14 +179,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a55b66219bbdc29",
+  "active": "2ad53ba2f6b63db4",
   "lastOpenFiles": [
+    "BOX/Broker/HTB - Broker.md",
+    "BOX/Pilgrimage/Pilgrimage - HTB.md",
+    "BOX/Broker",
     "BOX/Pilgrimage/images/Pilgrimage.png",
     "BOX/Pilgrimage/images/root.png",
     "BOX/Pilgrimage/images/ssh.png",
     "BOX/Pilgrimage/images/usernames.png",
     "BOX/Pilgrimage/images/table.png",
-    "BOX/Pilgrimage/Pilgrimage - HTB.md",
     "BOX/Pilgrimage/images/login.png",
     "BOX/Pilgrimage/images/website.png",
     "BOX/Pilgrimage/images",
@@ -203,14 +205,12 @@
     "BOX/Zipping",
     "BOX/SAU/pictures/baskets-version.png",
     "BOX/SAU/pictures/Maltrail-login.png",
-    "BOX/SAU/pictures/Maltrail-version.png",
     "BOX/Analytics",
     "BOX/Pilgrimage",
     "BOX/Codify/pics",
     "BOX/Codify",
     "BOX/SAU/pictures",
     "New Text Document.txt",
-    "Untitled.canvas",
-    "BOX/SAU/enum"
+    "Untitled.canvas"
   ]
 }
