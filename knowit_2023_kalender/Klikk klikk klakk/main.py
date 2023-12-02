@@ -3,6 +3,7 @@ file_path = 'knowit_2023_kalender\Klikk klikk klakk\log.txt'
 dict = {}
 amount = 0
 
+#Veldig rudamentary hashset. Ikke vandt med python
 def fill_list():
     for i in range(1,8):
         dict.update({i : 0})
