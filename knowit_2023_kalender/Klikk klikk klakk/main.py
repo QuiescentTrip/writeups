@@ -11,8 +11,7 @@ def fill_list():
 try:
     with open(file_path, 'r') as file:
         
-        file_content = file.read()
-        elements_list = file_content.split(',')
+        elements_list = file.read().split(',')
             
         for string in elements_list:
             
