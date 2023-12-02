@@ -4,7 +4,6 @@ dict = {}
 amount = 0
 
 #Veldig rudamentary hashset.
-#Koda på fly, kunne ikke google.
 def fill_list():
     for i in range(1,8):
         dict.update({i : 0})
