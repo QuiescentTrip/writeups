@@ -1,13 +1,13 @@
-import math
-
 file_path = 'knowit_2023_kalender\Businessnissing\input.txt'
 money = 200000
-
+start = money
 try:
     with open(file_path, 'r') as file:
         file = file.read().split('\n')
         
-    for i, day in enumerate(file):  
+    for i, day in enumerate(file):
+        if not day:
+            continue   
         
         stock = 0
         min_price = int(day.split(',')[0])
@@ -26,8 +26,9 @@ try:
         
         min_price = saved_min
         max_price = min_price + max_profit
-
-        stock = math.floor(money / min_price)
+        
+        
+        stock = money // min_price
         money = money % min_price
         money += stock * max_price
         
