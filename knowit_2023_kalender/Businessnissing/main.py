@@ -1,6 +1,5 @@
 file_path = 'knowit_2023_kalender\Businessnissing\input.txt'
 money = 200000
-start = money
 try:
     with open(file_path, 'r') as file:
         file = file.read().split('\n')
@@ -29,7 +28,7 @@ try:
         
         
         stock = money // min_price
-        money = money % min_price
+        money -= stock * min_price
         money += stock * max_price
         
 except FileNotFoundError:
