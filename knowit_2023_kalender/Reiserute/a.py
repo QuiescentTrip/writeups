@@ -13,4 +13,4 @@ for city in cities:
 lyng_lav_behov = (total_distance * 9) / 1000
 lyng_lav_behov_avrundet = round(lyng_lav_behov)
 
-print(f"Julenissen trenger å ta med seg {lyng_lav_behov_avrundet} kg lyng og lav.")
+print(lyng_lav_behov_avrundet)
