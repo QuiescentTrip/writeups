@@ -1,4 +1,3 @@
-import math
 def is_prime(n):
     if n <= 1:
         return False
@@ -7,15 +6,12 @@ def is_prime(n):
             return False
     return True
 
-def count_twin_primes(start, end):
+def count_twin_primes(end):
     count = 0
-    for num in range(start, end + 1):
+    for num in range(0, end + 1):
         if is_prime(num) and is_prime(num + 2):
             count += 1
     return count
 
-start_range = 0
-end_range = 46656 + 666
-
-twin_primes_count = count_twin_primes(start_range, end_range)
-print(twin_primes_count)
+x = count_twin_primes(6**6 + 666)
+print(x)

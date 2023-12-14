@@ -1,33 +1,44 @@
 crypt = "Ojfkyezkz bvclae zisj a guomiwly qr tmuematbcqxqv sa zmcgloz."
+alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 
 def is_2(i):
     binary = bin(i)[2:]
-    count = 0
-    for i in range(len(binary)):
-        if binary[i] == '1':
-            count += 1
-    return count % 2 == 0
+    return [*binary].count('1') % 2 == 0
 
 list = []
-for i in range(1,10000):
+for i in range(len(crypt) * 2):
     if is_2(i):
         list.append(i)
     
 
-def rot_alpha(n):
-    from string import ascii_lowercase as lc, ascii_uppercase as uc
-    lookup = str.maketrans(lc + uc, lc[n:] + lc[:n] + uc[n:] + uc[:n])
-    return lambda s: s.translate(lookup)
+def rot_alpha(n, char):
+    if char.isalpha():
+        return alphabet[(alphabet.index(char) + n) % len(alphabet)]
+    else:
+        return char
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+def count_twin_primes(end):
+    count = 0
+    for num in range(0, end + 1):
+        if is_prime(num) and is_prime(num + 2):
+            count += 1
+    return count
+
 
 output = ""
-
-x = 666
+x = count_twin_primes(6**6 + 666)
+crypt = [*crypt]
 for i, char in enumerate(crypt):
     y = list[i]
-    n = x * y % 13
-    print(n)
-    output += rot_alpha(n)(char)
-    
+    n = x * y 
+    crypt[i] = rot_alpha(-n, char)
 
-print(crypt)
-print(output)
+print("".join(crypt))
