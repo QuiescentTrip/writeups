@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "18ab2d81cb3f68ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "8214d0b33cb3047a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bafea3370295939",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "template"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74487711f11b642f",
+    "type": "split",
+    "children": [
+      {
+        "id": "cab26ec2b97ecf6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b3a4565136495ae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3ac79413a1063f5b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bc09655f5da71392",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 290.5086555480957
+  },
+  "right": {
+    "id": "1f3bf57e7d4bf514",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b373e7f00f425dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01c714307ef92525",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HTB/BOX/threemonitors/ThreeMonitors - HTB.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ThreeMonitors - HTB"
+            }
+          },
+          {
+            "id": "d0b7b5e7b6e06a27",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HTB/BOX/threemonitors/ThreeMonitors - HTB.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ThreeMonitors - HTB"
+            }
+          },
+          {
+            "id": "2b2e8641ad162194",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3fb7aeb41b9518ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HTB/BOX/threemonitors/ThreeMonitors - HTB.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ThreeMonitors - HTB"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "hugo-publish:hugo sync": false
+    }
+  },
+  "active": "9bafea3370295939",
+  "lastOpenFiles": [
+    "templates",
+    "template.md",
+    "templates/template.md",
+    "readme.md",
+    "writeups/HTB/BOX/Analytics/Analytics - HTB.md",
+    "writeups/HTB/Inactive/Legacy.md",
+    "writeups/HTB/Home.md",
+    "writeups/HTB/Inactive/Lame.md",
+    "writeups/HTB/Inactive/Jerry.md",
+    "writeups/HTB/Inactive/blue.md",
+    "writeups/EPT2024/Vault/Vault.md",
+    "writeups/PST_NPST_2023/tastefinger/tastefinger.md",
+    "writeups/HTB/BOX/BoardLight/BoardLight - HTB.md",
+    "writeups/HTB/BOX/Analytics/pics/Analytics.png",
+    "writeups/HTB/BOX/Pilgrimage/Pilgrimage - HTB.md",
+    "writeups",
+    "writeups/Kode24/Poultry/output-onlinegiftools.png",
+    "writeups/Kode24/Poultry/spectrumCode.wav",
+    "writeups/Kode24/Poultry/penguins.gif",
+    "writeups/HTB/BOX/Broker/HTB - Broker.md",
+    "writeups/EPT2024/Vault",
+    "writeups/EPT2024",
+    "writeups/HTB/BOX/threemonitors/ThreeMonitors - HTB.md",
+    "writeups/HTB/BOX/threemonitors",
+    "HTB/BOX/Untitled.md",
+    "writeups/HTB/BOX/SAU/SAU - HTB.md",
+    "writeups/HTB/BOX/Cap/CAP - HTB.md",
+    "writeups/HTB/BOX/Greenhorn/Greenhorn - HTB.md",
+    "writeups/HTB/Inactive",
+    "writeups/HTB/BOX/Greenhorn",
+    "writeups/HTB/BOX/BoardLight",
+    "writeups/HTB/BOX/Zipping/Zipper - HTB.md",
+    "writeups/HTB/BOX/Cap"
+  ]
+}
